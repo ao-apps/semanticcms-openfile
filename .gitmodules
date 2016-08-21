@@ -1,0 +1,6 @@
+[submodule "semanticcms-openfile-servlet"]
+	path = semanticcms-openfile-servlet
+	url = git@github.com:aoindustries/semanticcms-openfile-servlet.git
+[submodule "semanticcms-openfile-taglib"]
+	path = semanticcms-openfile-taglib
+	url = git@github.com:aoindustries/semanticcms-openfile-taglib.git
