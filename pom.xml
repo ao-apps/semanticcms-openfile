@@ -47,6 +47,7 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 	</scm>
 
 	<modules>
+		<module>semanticcms-openfile-all</module>
 		<module>semanticcms-openfile-servlet</module>
 		<module>semanticcms-openfile-taglib</module>
 	</modules>

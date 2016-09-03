@@ -4,3 +4,6 @@
 [submodule "semanticcms-openfile-taglib"]
 	path = semanticcms-openfile-taglib
 	url = git@github.com:aoindustries/semanticcms-openfile-taglib.git
+[submodule "semanticcms-openfile-all"]
+	path = semanticcms-openfile-all
+	url = git@github.com:aoindustries/semanticcms-openfile-all.git
