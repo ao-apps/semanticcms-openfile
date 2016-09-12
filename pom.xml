@@ -38,6 +38,7 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 	<name>SemanticCMS OpenFile</name>
 	<url>https://semanticcms.com/openfile/</url>
 	<description>Parent POM for SemanticCMS desktop integration mode for local content creation.</description>
+	<inceptionYear>2016</inceptionYear>
 
 	<scm>
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-openfile.git</connection>
