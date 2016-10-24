@@ -35,15 +35,24 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 	<version>1.3.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<properties>
+		<bookPath>/openfile</bookPath>
+		<shortTitle>OpenFile</shortTitle>
+		<javadoc.breadcrumbs><![CDATA[<a target="_top" href="${project.parent.parent.url}">${project.parent.parent.name}</a>
+/ <a target="_top" href="${project.parent.url}">OpenFile</a>
+/ <a target="_top" href="${project.url}">${shortTitle}</a>]]></javadoc.breadcrumbs>
+	</properties>
+
 	<name>SemanticCMS OpenFile</name>
-	<url>https://semanticcms.com/openfile/</url>
+	<url>https://semanticcms.com${bookPath}/</url><!-- Can't inherit due to multi-module -->
 	<description>Parent POM for SemanticCMS desktop integration mode for local content creation.</description>
 	<inceptionYear>2016</inceptionYear>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/semanticcms-openfile.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-openfile.git</developerConnection>
-		<url>https://github.com/aoindustries/semanticcms-openfile</url>
+		<!-- Can't inherit due to multi-module -->
+		<connection>scm:git:git://github.com/aoindustries/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:git@github.com:aoindustries/${project.artifactId}.git</developerConnection>
+		<url>https://github.com/aoindustries/${project.artifactId}</url>
 		<tag>HEAD</tag>
 	</scm>
 
