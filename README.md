@@ -3,7 +3,7 @@ Parent POM for [SemanticCMS desktop integration mode](https://semanticcms.com/op
 
 ## Project Links
 * [Project Home](https://semanticcms.com/openfile/)
-* [Maven Central Repository](https://search.maven.org/#search|gav|1|g:%22com.semanticcms%22%20AND%20a:%22semanticcms-openfile%22)
+* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.semanticcms%22%20AND%20a:%22semanticcms-openfile%22)
 * [GitHub](https://github.com/aoindustries/semanticcms-openfile)
 
 ## Modules
