@@ -7,3 +7,12 @@
 [submodule "semanticcms-openfile-all"]
 	path = semanticcms-openfile-all
 	url = git@github.com:aoindustries/semanticcms-openfile-all.git
+[submodule "all"]
+	path = all
+	url = git@github.com:aoindustries/semanticcms-openfile-all.git
+[submodule "servlet"]
+	path = servlet
+	url = git@github.com:aoindustries/semanticcms-openfile-servlet.git
+[submodule "taglib"]
+	path = taglib
+	url = git@github.com:aoindustries/semanticcms-openfile-taglib.git
