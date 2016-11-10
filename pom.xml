@@ -36,7 +36,6 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 	<packaging>pom</packaging>
 
 	<properties>
-		<bookPath>/openfile</bookPath>
 		<shortTitle>OpenFile</shortTitle>
 		<javadoc.breadcrumbs><![CDATA[<a target="_top" href="${project.parent.parent.url}">${project.parent.parent.name}</a>
 / <a target="_top" href="${project.parent.url}">OpenFile</a>
@@ -44,7 +43,7 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 	</properties>
 
 	<name>SemanticCMS OpenFile</name>
-	<url>https://semanticcms.com${bookPath}/</url><!-- Can't inherit due to multi-module -->
+	<url>https://semanticcms.com/openfile/</url>
 	<description>Parent POM for SemanticCMS desktop integration mode for local content creation.</description>
 	<inceptionYear>2016</inceptionYear>
 
@@ -57,8 +56,12 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 	</scm>
 
 	<modules>
+		<module>book</module>
 		<module>all</module>
+		<module>all/book</module>
 		<module>servlet</module>
+		<module>servlet/book</module>
 		<module>taglib</module>
+		<module>taglib/book</module>
 	</modules>
 </project>
