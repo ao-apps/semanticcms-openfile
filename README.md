@@ -1,5 +1,5 @@
 # [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [OpenFile](https://semanticcms.com/openfile/)
-Parent POM for [SemanticCMS](https://semanticcms.com/) desktop integration mode for local content creation.
+Aggregator POM for [SemanticCMS](https://semanticcms.com/) desktop integration mode for local content creation.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/openfile/)

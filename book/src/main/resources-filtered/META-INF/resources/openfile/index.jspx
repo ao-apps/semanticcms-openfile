@@ -1,5 +1,5 @@
 <!--
-semanticcms-openfile - Parent POM for SemanticCMS desktop integration mode for local content creation.
+semanticcms-openfile - Aggregator POM for SemanticCMS desktop integration mode for local content creation.
 Copyright (C) 2016  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
@@ -33,14 +33,14 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2016-10-19T02:33:00-0500"
-		dateModified="2016-10-28T00:11:09-0500"
+		dateModified="2016-11-13T23:56:09-0600"
 	>
 		<core:child page="changelog.jspx" />
 		<core:child book="/openfile/all" page="/index.jspx" />
 		<core:child book="/openfile/servlet" page="/index.jspx" />
 		<core:child book="/openfile/taglib" page="/index.jspx" />
 		<p>
-			Parent POM for <core:link book="/" page="/index.jspx">SemanticCMS</core:link> desktop integration mode for local content creation.
+			Aggregator POM for <core:link book="/" page="/index.jspx">SemanticCMS</core:link> desktop integration mode for local content creation.
 		</p>
 		<section:section label="Project Links">
 			<ul>
