@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [OpenFile](https://semanticcms.com/openfile/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [SemanticCMS](https://github.com/aoindustries/semanticcms) / [OpenFile](https://github.com/aoindustries/semanticcms-openfile)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://semanticcms.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -18,7 +18,7 @@
 	</a>
 </p>
 
-Aggregator POM for [SemanticCMS](https://semanticcms.com/) desktop integration mode for local content creation.
+Aggregator POM for [SemanticCMS](https://github.com/aoindustries/semanticcms) desktop integration mode for local content creation.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/openfile/)
@@ -27,10 +27,9 @@ Aggregator POM for [SemanticCMS](https://semanticcms.com/) desktop integration m
 * [GitHub](https://github.com/aoindustries/semanticcms-openfile)
 
 ## Modules
-* [SemanticCMS OpenFile All](https://semanticcms.com/openfile/all/)
-* [SemanticCMS OpenFile Book](https://semanticcms.com/openfile/book/)
-* [SemanticCMS OpenFile Servlet](https://semanticcms.com/openfile/servlet/)
-* [SemanticCMS OpenFile Taglib](https://semanticcms.com/openfile/taglib/)
+* [SemanticCMS OpenFile All](https://github.com/aoindustries/semanticcms-openfile-all)
+* [SemanticCMS OpenFile Servlet](https://github.com/aoindustries/semanticcms-openfile-servlet)
+* [SemanticCMS OpenFile Taglib](https://github.com/aoindustries/semanticcms-openfile-taglib)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
