@@ -35,7 +35,7 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 	<properties>
 		<!-- These values are copied from the project being documented -->
 		<documented.groupId>com.semanticcms</documented.groupId><documented.artifactId>semanticcms-openfile</documented.artifactId>
-		<documented.name>SemanticCMS 1 OpenFile</documented.name>
+		<documented.name>SemanticCMS OpenFile</documented.name>
 		<documented.shortTitle>OpenFile</documented.shortTitle>
 		<documented.url>https://semanticcms.com/openfile/</documented.url>
 		<documented.description>Aggregator POM for SemanticCMS desktop integration mode for local content creation.</documented.description>
