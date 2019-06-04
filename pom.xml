@@ -29,7 +29,7 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile</artifactId><version>1.4.0-validation-SNAPSHOT</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile</artifactId><version>1.4.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>SemanticCMS OpenFile</name>
@@ -47,6 +47,10 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 
 	<modules>
 		<module>book</module>
+		<!-- TODO:
+		<module>bom</module>
+		<module>bom/book</module>
+		-->
 		<module>all</module>
 		<module>all/book</module>
 		<module>servlet</module>
