@@ -35,7 +35,7 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 	<properties>
 		<!-- These values are copied from the project being documented -->
 		<documented.groupId>com.semanticcms</documented.groupId><documented.artifactId>semanticcms-openfile</documented.artifactId>
-		<documented.name>SemanticCMS 2 OpenFile</documented.name>
+		<documented.name>SemanticCMS OpenFile²</documented.name>
 		<documented.shortTitle>OpenFile</documented.shortTitle>
 		<documented.url>https://semanticcms.com/openfile/</documented.url>
 		<documented.description>Aggregator POM for SemanticCMS desktop integration mode for local content creation.</documented.description>
@@ -89,7 +89,7 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 			<groupId>com.aoindustries</groupId><artifactId>ao-badges</artifactId><version>2.0.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-taglib</artifactId><version>3.0.0-validation-SNAPSHOT</version>
+			<groupId>com.aoindustries</groupId><artifactId>ao-taglib</artifactId><version>3.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId><artifactId>semanticcms-changelog-taglib</artifactId><version>2.0.0-SNAPSHOT</version>
