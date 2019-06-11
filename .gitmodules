@@ -7,3 +7,6 @@
 [submodule "taglib"]
 	path = taglib
 	url = git@github.com:aoindustries/semanticcms-openfile-taglib.git
+[submodule "bom"]
+	path = bom
+	url = git@aoindustries.github.com:aoindustries/semanticcms-openfile-bom.git
