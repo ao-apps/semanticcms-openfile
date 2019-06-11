@@ -27,6 +27,7 @@ Aggregator POM for [SemanticCMS](https://github.com/aoindustries/semanticcms) de
 * [GitHub](https://github.com/aoindustries/semanticcms-openfile)
 
 ## Modules
+* [SemanticCMS OpenFile BOM](https://github.com/aoindustries/semanticcms-openfile-bom)
 * [SemanticCMS OpenFile All](https://github.com/aoindustries/semanticcms-openfile-all)
 * [SemanticCMS OpenFile Servlet](https://github.com/aoindustries/semanticcms-openfile-servlet)
 * [SemanticCMS OpenFile Taglib](https://github.com/aoindustries/semanticcms-openfile-taglib)
