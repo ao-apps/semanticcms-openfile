@@ -36,7 +36,7 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T01:14:17-0500"
-		dateModified="2019-06-23T01:55:40-0500"
+		dateModified="2019-09-30T05:23:57-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-openfile:pom.version}" />
@@ -51,7 +51,14 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Updated version of <core:link book="/openfile/bom" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/openfile/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/openfile/servlet" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/openfile/taglib" page="/index.jspx" />.</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
