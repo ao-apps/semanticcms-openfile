@@ -49,9 +49,9 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 			<changelog:release
 				projectName="@{documented.name}"
 				version="#{version}"
-				groupId="@{documented.groupId}"
+				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
-				scmUrl="@{documented.scm.url}"
+				scmUrl="@{project.scm.url}"
 			>
 				<ul>
 					<li>Updated for <core:link book="/" page="/" /> 2.</li>
@@ -63,9 +63,9 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.6.0"
 			datePublished="2019-10-11T23:32:23-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Updated version of <core:link book="/openfile/bom" page="/index.jspx" />.</li>
@@ -79,9 +79,9 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.5.0"
 			datePublished="2019-06-23T01:55:40-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>New project <core:link book="/openfile/bom" page="/" /> for managed dependencies.</li>
@@ -92,9 +92,9 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.4.0"
 			datePublished="2019-04-20T23:48:48-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Updated version of <core:link book="/parent" page="/" />.</li>
@@ -105,9 +105,9 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.3.3"
 			datePublished="2017-07-20T16:36:47-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Updated dependencies.</li>
@@ -118,9 +118,9 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.3.2"
 			datePublished="2016-11-16T19:19:57-0600"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>New <ao:a href="https://aoindustries.com/ao-oss-parent/">AO OSS Parent</ao:a> POM to simplify <code>pom.xml</code> files.</li>
@@ -133,9 +133,9 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.3.1"
 			datePublished="2016-10-20T19:06:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Improved Javadoc formatting.</li>
@@ -147,9 +147,9 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.3.0"
 			datePublished="2016-10-04T22:13:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Improved Javadoc formatting.</li>
@@ -161,9 +161,9 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.2"
 			datePublished="2016-09-11T16:27:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Use dependencyManagement instead of dependency for junit.</li>
@@ -174,9 +174,9 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.1"
 			datePublished="2016-09-03T10:21:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Improved Maven configuration for Java EE 6 dependencies.</li>
@@ -188,9 +188,9 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.0"
 			datePublished="2016-08-21T18:09:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Created parent pom for semanticcms-openfile components.</li>
