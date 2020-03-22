@@ -1,12 +1,16 @@
 [submodule "all"]
 	path = all
 	url = git@github.com:aoindustries/semanticcms-openfile-all.git
+	branch = .
 [submodule "servlet"]
 	path = servlet
 	url = git@github.com:aoindustries/semanticcms-openfile-servlet.git
+	branch = .
 [submodule "taglib"]
 	path = taglib
 	url = git@github.com:aoindustries/semanticcms-openfile-taglib.git
+	branch = .
 [submodule "bom"]
 	path = bom
 	url = git@aoindustries.github.com:aoindustries/semanticcms-openfile-bom.git
+	branch = .
