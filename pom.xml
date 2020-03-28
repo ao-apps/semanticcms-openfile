@@ -45,6 +45,11 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 		<tag>HEAD</tag>
 	</scm>
 
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/aoindustries/semanticcms-openfile/issues</url>
+	</issueManagement>
+
 	<modules>
 		<module>book</module>
 		<module>bom</module>
