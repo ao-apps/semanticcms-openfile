@@ -37,7 +37,7 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T01:14:17-0500"
-		dateModified="2019-10-11T23:32:23-0500"
+		dateModified="2020-03-29T17:13:01-05:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-openfile:pom.version}" />
@@ -61,6 +61,25 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 
 		<changelog:release
 			projectName="@{documented.name}"
+			version="1.6.1"
+			datePublished="2020-03-29T17:13:01-05:00"
+			groupId="@{project.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{project.scm.url}"
+		>
+			<ul>
+				<li>
+					Reduced use of property substitutions in <code>pom.xml</code>.
+					This is to help 3rd-party parsers that fail to perform full Maven-compatible substitutions.
+				</li>
+				<li>Updated version of <core:link book="/openfile/bom" page="/" />.</li>
+				<li>Updated version of <core:link book="/openfile/all" page="/" />.</li>
+				<li>Updated version of <core:link book="/openfile/servlet" page="/" />.</li>
+			</ul>
+		</changelog:release>
+
+		<changelog:release
+			projectName="@{documented.name}"
 			version="1.6.0"
 			datePublished="2019-10-11T23:32:23-0500"
 			groupId="@{project.groupId}"
@@ -68,10 +87,10 @@ along with semanticcms-openfile.  If not, see <http://www.gnu.org/licenses />.
 			scmUrl="@{project.scm.url}"
 		>
 			<ul>
-				<li>Updated version of <core:link book="/openfile/bom" page="/index.jspx" />.</li>
-				<li>Updated version of <core:link book="/openfile/all" page="/index.jspx" />.</li>
-				<li>Updated version of <core:link book="/openfile/servlet" page="/index.jspx" />.</li>
-				<li>Updated version of <core:link book="/openfile/taglib" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/openfile/bom" page="/" />.</li>
+				<li>Updated version of <core:link book="/openfile/all" page="/" />.</li>
+				<li>Updated version of <core:link book="/openfile/servlet" page="/" />.</li>
+				<li>Updated version of <core:link book="/openfile/taglib" page="/" />.</li>
 			</ul>
 		</changelog:release>
 
