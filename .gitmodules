@@ -1,3 +1,7 @@
+[submodule "bom"]
+	path = bom
+	url = git@github.com:aoindustries/semanticcms-openfile-bom.git
+	branch = .
 [submodule "all"]
 	path = all
 	url = git@github.com:aoindustries/semanticcms-openfile-all.git
@@ -9,8 +13,4 @@
 [submodule "taglib"]
 	path = taglib
 	url = git@github.com:aoindustries/semanticcms-openfile-taglib.git
-	branch = .
-[submodule "bom"]
-	path = bom
-	url = git@aoindustries.github.com:aoindustries/semanticcms-openfile-bom.git
 	branch = .
