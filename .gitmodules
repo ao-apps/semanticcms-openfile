@@ -1,16 +1,16 @@
 [submodule "bom"]
-	path = bom
-	url = git@github.com:ao-apps/semanticcms-openfile-bom.git
-	branch = .
+  path = bom
+  url = git@github.com:ao-apps/semanticcms-openfile-bom.git
+  branch = .
 [submodule "all"]
-	path = all
-	url = git@github.com:ao-apps/semanticcms-openfile-all.git
-	branch = .
+  path = all
+  url = git@github.com:ao-apps/semanticcms-openfile-all.git
+  branch = .
 [submodule "servlet"]
-	path = servlet
-	url = git@github.com:ao-apps/semanticcms-openfile-servlet.git
-	branch = .
+  path = servlet
+  url = git@github.com:ao-apps/semanticcms-openfile-servlet.git
+  branch = .
 [submodule "taglib"]
-	path = taglib
-	url = git@github.com:ao-apps/semanticcms-openfile-taglib.git
-	branch = .
+  path = taglib
+  url = git@github.com:ao-apps/semanticcms-openfile-taglib.git
+  branch = .
