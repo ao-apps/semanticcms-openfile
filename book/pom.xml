@@ -36,15 +36,15 @@ along with semanticcms-openfile.  If not, see <https://www.gnu.org/licenses/>.
     <module.name>com.semanticcms.openfile.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>semanticcms-openfile</documented.artifactId>
-    <documented.name>SemanticCMS OpenFile²</documented.name>
+    <documented.name>SemanticCMS OpenFile</documented.name>
     <documented.description>Aggregator POM for SemanticCMS desktop integration mode for local content creation.</documented.description>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
 
-  <name>SemanticCMS OpenFile² Book</name>
+  <name>SemanticCMS OpenFile Book</name>
   <url>https://semanticcms.com/openfile/</url>
-  <description>Documentation for SemanticCMS OpenFile² in SemanticCMS format.</description>
+  <description>Documentation for SemanticCMS OpenFile in SemanticCMS format.</description>
   <inceptionYear>2016</inceptionYear>
 
   <licenses>
