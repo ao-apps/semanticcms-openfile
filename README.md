@@ -19,7 +19,7 @@ Aggregator POM for [SemanticCMS](https://github.com/ao-apps/semanticcms) desktop
 ## Project Links
 * [Project Home](https://semanticcms.com/openfile/)
 * [Changelog](https://semanticcms.com/openfile/changelog)
-* [Maven Central Repository](https://search.maven.org/artifact/com.semanticcms/semanticcms-openfile)
+* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.semanticcms&q=a%3Asemanticcms-openfile)
 * [GitHub](https://github.com/ao-apps/semanticcms-openfile)
 
 ## Modules
