@@ -32,9 +32,6 @@ along with semanticcms-openfile.  If not, see <https://www.gnu.org/licenses/>.
   <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile</artifactId><version>1.8.1-POST-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <properties>
-  </properties>
-
   <name>SemanticCMS OpenFile</name>
   <url>https://semanticcms.com/openfile/</url>
   <description>Aggregator POM for SemanticCMS desktop integration mode for local content creation.</description>
