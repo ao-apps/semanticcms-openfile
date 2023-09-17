@@ -32,6 +32,11 @@ along with semanticcms-openfile.  If not, see <https://www.gnu.org/licenses/>.
   <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile</artifactId><version>1.8.1-POST-SNAPSHOT</version>
   <packaging>pom</packaging>
 
+  <properties>
+    <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
+    <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
+  </properties>
+
   <name>SemanticCMS OpenFile</name>
   <url>https://semanticcms.com/openfile/</url>
   <description>Aggregator POM for SemanticCMS desktop integration mode for local content creation.</description>
